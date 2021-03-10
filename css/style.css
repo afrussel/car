@@ -1,37 +1,37 @@
-@font - face {
-     font - family :supermolot - regular;
-     src :url( / wp - content / themes / southart - new - theme / fonts / supermolot - regular.ttf ) format("truetype");
+@font-face {
+    font-family: supermolot-regular;
+    src: url(fonts/supermolot-regular.ttf) format("truetype");
 }
- @font - face {
-     font - family :supermolot - bold - Italic;
-     src :url( / wp - content / themes / southart - new - theme / fonts / supermolot - bold - Italic.ttf ) format("truetype");
+@font-face {
+    font-family: supermolot-bold-Italic;
+    src: url(fonts/supermolot-bold-Italic.ttf) format("truetype");
 }
- @font - face {
-     font - family :supermolot - Italic;
-     src :url( / wp - content / themes / southart - new - theme / fonts / supermolot - Italic.ttf ) format("truetype");
+@font-face {
+    font-family: supermolot-Italic;
+    src: url(fonts/supermolot-Italic.ttf) format("truetype");
 }
- @font - face {
-     font - family :supermolot - light;
-     src :url( / wp - content / themes / southart - new - theme / fonts / supermolot - light.ttf ) format("truetype");
+@font-face {
+    font-family: supermolot-light;
+    src: url(fonts/supermolot-light.ttf) format("truetype");
 }
- @font - face {
-     font - family :roboto - regular;
-     src :url( / wp - content / themes / southart - new - theme / fonts / roboto - regular.ttf ) format("truetype");
+@font-face {
+    font-family: roboto-regular;
+    src: url(fonts/roboto-regular.ttf) format("truetype");
 }
-.sup - regular {
-     font - family :supermolot - regular;
+.sup-regular {
+    font-family: supermolot-regular;
 }
-.sup - bold - Italic {
-     font - family :supermolot - bold - Italic;
+.sup-bold-Italic {
+    font-family: supermolot-bold-Italic;
 }
-.sup - Italic {
-     font - family :supermolot - Italic;
+.sup-Italic {
+    font-family: supermolot-Italic;
 }
-.sup - light {
-     font - family :supermolot - light;
+.sup-light {
+    font-family: supermolot-light;
 }
-.roboto - regular {
-     font - family :roboto - regular;
+.roboto-regular {
+    font-family: roboto-regular;
 }
 .animation {
      width :11vw;
@@ -150,6 +150,7 @@ h1,h2,h3,h4,h5,h6,p{
 html{
     -webkit-text-size-adjust:100%;
     -webkit-overflow-scrolling:touch;
+    overflow-x: hidden;
 }
 a{
     color:inherit;
@@ -279,6 +280,7 @@ body{
 }
 .top-bg {
     background-image: url("https://southart.com.ua/wp-content/uploads/222.jpg"); 
+    background-repeat: no-repeat; 
 }
 .head-menu .menu{
     width:76vw;
@@ -1051,10 +1053,9 @@ body{
 }
 .cop-box{
     width:100%;
-    display:table;
     font-family:roboto-regular;
     font-size:.85vw;
-    margin:-3vw auto 2vw;
+    margin:-3vw auto 0;
 }
 .cop-box span{
     color:#fff;
@@ -8556,6 +8557,26 @@ body .ui-tooltip{
 .ui-widget-header a{
     color:#333333;
 }
+
+.gallery-car {
+   margin: 2vw auto 0;
+}
+
+.gallery-car a {
+   margin-bottom: 15px;
+   width: 445px;
+   display: inline-block;
+   margin-right: 15px;
+   list-style: outside none none;
+}
+.gallery-car a img {
+    width: 100%;
+}
+
+
+
+
+
 .ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default,.ui-button,
 /* We use html here because we need a greater specificity to make sure disabled works properly when clicked or hovered * / html.ui - button.ui - state - disabled :hover, html.ui - button.ui - state - disabled :active {
      border :1px solid #c5c5c5;
@@ -9755,3 +9776,4 @@ button.swiper-pagination-bullet{
 .swiper-container-coverflow .swiper-wrapper{
     -ms-perspective:1200px;
 }
+
