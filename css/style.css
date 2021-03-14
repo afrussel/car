@@ -318,6 +318,14 @@ body {
 	background-image: url('https://southart.com.ua/wp-content/uploads/222.jpg');
 	background-repeat: no-repeat;
 }
+.service-1-bg {
+	background-image: url("../images/services-2.jpg");
+	background-repeat: no-repeat;
+}
+.service-2-bg {
+	background-image: url("../images/services-3.jpg");
+	background-repeat: no-repeat;
+}
 .head-menu .menu {
 	width: 76vw;
 	max-width: 1440px;
@@ -393,14 +401,14 @@ body {
 	padding: 1vw;
 }
 .logo {
-	background: url(/wp-content/themes/southart-new-theme/images/logo.svg);
+	background: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
 	width: 11vw;
-	height: 5vw;
+	height: 7.5vw;
 	position: absolute;
-	top: 0.4vw;
+	top: 0.5vw;
 	left: calc(50% - 5.5vw);
 	z-index: 10;
 }
