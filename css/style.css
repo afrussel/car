@@ -326,6 +326,10 @@ body {
 	background-image: url("../images/services-3.jpg");
 	background-repeat: no-repeat;
 }
+.service-3-bg {
+	background-image: url("../images/services-4.jpg");
+	background-repeat: no-repeat;
+}
 .head-menu .menu {
 	width: 76vw;
 	max-width: 1440px;
@@ -3858,7 +3862,7 @@ ul.tabs li.active {
 .icon-garant-box {
 	width: 17%;
 	height: 6vw;
-	background: url(/wp-content/themes/southart-new-theme/images/garant-icon.svg);
+	background: url(../images/garant-icon.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
