@@ -330,6 +330,10 @@ body {
 	background-image: url("../images/services-4.jpg");
 	background-repeat: no-repeat;
 }
+.service-4-bg {
+	background-image: url("../images/services-5.jpg");
+	background-repeat: no-repeat;
+}
 .head-menu .menu {
 	width: 76vw;
 	max-width: 1440px;
@@ -4185,7 +4189,7 @@ ul.tabs li.active {
 .service-box-menu {
 	width: 100%;
 	position: fixed;
-	height: 38vw;
+	height: 21vw;
 	background: linear-gradient(
 		to bottom,
 		rgba(12, 13, 19, 1) 80%,
