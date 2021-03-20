@@ -4845,11 +4845,7 @@ ul.tabs li.active {
 		margin-top: -80px;
 	}
 	.close-mob-menu {
-<<<<<<< HEAD
-		background: url(../assets/menu-mob-close.svg);
-=======
 		background: url(../images/menu-mob-close.svg);
->>>>>>> bf6ab85fe1574e784f0e54bc9a76e461e58072a1
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 80%;
