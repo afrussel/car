@@ -44,15 +44,7 @@ html, body {
 }
 .animation {
 	width: 11vw;
-	height: 5vw;
-	position: fixed;
-	top: calc(50% - 3vw);
-	left: calc(50% - 5vw);
-	z-index: 999;
-	background: url('../assets/burger-mobile.svg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: center;
+	height: 100%;
 }
 .animsition,
 .animsition-overlay {
@@ -147,6 +139,9 @@ mark {
 	width: 100%;
 	height: 100vh;
 	transition: all 0.3s;
+	display: flex;
+    justify-content: center;
+    align-items: center
 }
 .disable {
 	opacity: 0;
@@ -4421,10 +4416,7 @@ ul.tabs li.active {
 	}
 	.animation {
 		width: 200px;
-		height: 100px;
-		position: fixed;
-		top: calc(50% - 50px);
-		left: calc(50% - 100px);
+		height: 100%;
 		z-index: 999;
 	}
 	.wrapper {
