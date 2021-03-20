@@ -386,7 +386,7 @@ body {
 	display: inline-block;
 	color: #fff;
 	font-size: 0.85vw;
-	margin: 2.4vw 2vw 5vw 0;
+	margin: 2.4vw 10vw 5vw 0;
 	font-family: supermolot-regular;
 	transition: 0.2s cubic-bezier(0.86, 0, 0.07, 1);
 }
@@ -423,7 +423,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
-	width: 11vw;
+	width: 9.5vw;
 	height: 7.5vw;
 	position: absolute;
 	top: 0.5vw;
@@ -789,7 +789,7 @@ body {
 	text-align: center;
 	display: block;
 }
-.page-id-4027 .row-3 .b-count span {
+.car-wrapping .row-3 .b-count span {
 	font-family: inherit;
 	font-size: inherit;
 	color: inherit;
@@ -1111,15 +1111,6 @@ body {
 }
 .icon-social:hover {
 	opacity: 0.8;
-}
-.fb {
-	background: url(/wp-content/themes/southart-new-theme/images/facebook.svg);
-}
-.insta {
-	background: url(/wp-content/themes/southart-new-theme/images/insta.svg);
-}
-.youtube {
-	background: url(/wp-content/themes/southart-new-theme/images/youtube.svg);
 }
 .cop-box {
 	width: 100%;
@@ -2744,7 +2735,7 @@ div.wpcf7-mail-sent-ok {
 	right: 0;
 	bottom: -2.5vw;
 	color: #fff;
-	text-align: right;
+	text-align: center;
 	cursor: pointer;
 }
 .filter-modal-btn:before {
@@ -2752,7 +2743,7 @@ div.wpcf7-mail-sent-ok {
 	display: block;
 	width: 1.2vw;
 	height: 1.2vw;
-	background: url(/wp-content/themes/southart-new-theme/images/filter.svg);
+	background: url(../images/filter.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4636,7 +4627,7 @@ ul.tabs li.active {
 	.logo {
 		background-size: 90%;
 		width: 140px;
-		height: 60px;
+		height: 90px;
 		position: absolute;
 		top: 10px;
 		left: calc(50vw - 70px);
@@ -4708,12 +4699,13 @@ ul.tabs li.active {
 	}
 	.head-menu .menu.active-menu-mobile {
 		transform: translateX(0%);
+		opacity: 1;
 	}
 	.menu:before {
 		content: '';
 		display: block;
 		position: fixed;
-		background: url(/wp-content/themes/southart-new-theme/images/mobile-menu-background.png);
+		background: url(../images/mobile-menu-background.png);
 		width: 100%;
 		height: 160%;
 		top: 0;
@@ -4853,7 +4845,11 @@ ul.tabs li.active {
 		margin-top: -80px;
 	}
 	.close-mob-menu {
+<<<<<<< HEAD
 		background: url(../assets/menu-mob-close.svg);
+=======
+		background: url(../images/menu-mob-close.svg);
+>>>>>>> bf6ab85fe1574e784f0e54bc9a76e461e58072a1
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 80%;
