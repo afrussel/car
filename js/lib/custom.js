@@ -611,10 +611,7 @@ function slidersInit() {
         },
     });
 }
-$('.burger-mobile-menu').click(function() {
-    $(".menu").toggleClass("active-menu-mobile");
-    $(".burger-mobile-menu").toggleClass("close-mob-menu");
-});
+
 (function($) {
     $(window).on("load", function() {
         $('body,html').animate({
@@ -787,26 +784,5 @@ function initialize() {
         window.open('https://www.google.com/maps/place/%D0%A2%D1%8E%D0%BD%D0%B8%D0%BD%D0%B3-%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%B5+South.Art/@50.4074152,30.3897506,19z/data=!3m1!4b1!4m5!3m4!1s0x40d4cb7a3a4af47b:0x96b744a622b350f9!8m2!3d50.4074143!4d30.3902978');
     });
 }
-$(".swiper-button-next").hover(function() {
-    $(".swiper-slide-next").addClass("hover-element");
-}, function() {
-    $(".swiper-slide-next").removeClass("hover-element");
-});
-$(".swiper-button-prev").hover(function() {
-    $(".swiper-slide-prev").addClass("hover-element");
-}, function() {
-    $(".swiper-slide-prev").removeClass("hover-element");
-});
-$(".swiper-button-prev, .swiper-button-next").click(function() {
-    $(".swiper-slide").removeClass("hover-element");
-});
-$(".service-hover").hover(function() {
-    $(".service-box-menu").addClass("active-service-box-menu");
-    $(".service-hover").addClass("active-service-hover");
-    $(".close-box-service").addClass("active-service-hover");
-});
-$(".no-service, .close-box-service").hover(function() {
-    $(".service-box-menu").removeClass("active-service-box-menu");
-    $(".service-hover").removeClass("active-service-hover");
-    $(".close-box-service").removeClass("active-service-hover");
-});
+
+

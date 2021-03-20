@@ -1,3 +1,13 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+}
+
 @font-face {
 	font-family: supermolot-regular;
 	src: url(fonts/supermolot-regular.ttf) format('truetype');
@@ -4189,7 +4199,7 @@ ul.tabs li.active {
 .service-box-menu {
 	width: 100%;
 	position: fixed;
-	height: 21vw;
+	height: 26vw;
 	background: linear-gradient(
 		to bottom,
 		rgba(12, 13, 19, 1) 80%,
@@ -4350,7 +4360,7 @@ ul.tabs li.active {
 	width: 1vw;
 	height: 1vw;
 	right: -1.2vw;
-	background: url(/wp-content/themes/southart-new-theme/images/service-arrow-menu.svg);
+	background: url(../assets/service-arrow-menu.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4843,7 +4853,7 @@ ul.tabs li.active {
 		margin-top: -80px;
 	}
 	.close-mob-menu {
-		background: url(/wp-content/themes/southart-new-theme/images/menu-mob-close.svg);
+		background: url(../assets/menu-mob-close.svg);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: 80%;
