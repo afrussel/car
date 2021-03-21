@@ -3,7 +3,8 @@
 	margin: 0;
 }
 
-html, body {
+html,
+body {
 	width: 100%;
 }
 
@@ -140,8 +141,8 @@ mark {
 	height: 100vh;
 	transition: all 0.3s;
 	display: flex;
-    justify-content: center;
-    align-items: center
+	justify-content: center;
+	align-items: center;
 }
 .disable {
 	opacity: 0;
@@ -224,7 +225,7 @@ body {
 .header-content {
 	position: fixed;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	top: 0;
 	left: 0;
 }
@@ -319,23 +320,27 @@ body {
 	);
 }
 .top-bg {
-	background-image: url('https://southart.com.ua/wp-content/uploads/222.jpg');
+	background-image: url('../images/222.jpg');
 	background-repeat: no-repeat;
 }
 .service-1-bg {
-	background-image: url("../images/services-2.jpg");
+	background-image: url('../images/services-2.jpg');
 	background-repeat: no-repeat;
 }
 .service-2-bg {
-	background-image: url("../images/services-3.jpg");
+	background-image: url('../images/services-3.jpg');
 	background-repeat: no-repeat;
 }
 .service-3-bg {
-	background-image: url("../images/services-4.jpg");
+	background-image: url('../images/services-4.jpg');
 	background-repeat: no-repeat;
 }
 .service-4-bg {
-	background-image: url("../images/services-5.jpg");
+	background-image: url('../images/services-5.jpg');
+	background-repeat: no-repeat;
+}
+.service-5-bg {
+	background-image: url('../images/paint-protection.png');
 	background-repeat: no-repeat;
 }
 .head-menu .menu {
@@ -417,8 +422,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
-	width: 9.5vw;
-	height: 7.5vw;
+	width: 6.5vw;
+	height: 5.5vw;
 	position: absolute;
 	top: 0.5vw;
 	left: calc(50% - 5.5vw);
@@ -1117,7 +1122,7 @@ body {
 }
 .left-cop {
 	float: left;
-	width: 15vw;
+	width: 45vw;
 	text-align: left;
 }
 .right-cop {
@@ -1128,7 +1133,7 @@ body {
 .yo-logo {
 	width: 25px;
 	height: 25px;
-	background: url(/wp-content/themes/southart-new-theme/images/yo-logo.svg);
+	background: url(../images/yo-logo.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -2047,7 +2052,7 @@ textarea {
 	left: 20px;
 }
 .gallery-thumbs .video-slide .icon-video {
-	background: url(/wp-content/themes/southart-new-theme/images/video-play.svg)
+	background: url(../images/video-play.svg)
 		rgba(0, 0, 0, 0.5);
 	background-size: 2vw;
 	background-repeat: no-repeat;
@@ -2057,7 +2062,7 @@ textarea {
 	display: block;
 }
 .grid-portfolio .icon-video {
-	background: url(/wp-content/themes/southart-new-theme/images/video-play.svg);
+	background: url(../images/video-play.svg);
 	background-size: 2vw;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2079,14 +2084,14 @@ textarea {
 	position: fixed;
 	top: 0.8vw;
 	right: 1vw;
-	background: url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+	background: url(../images/close-icon.svg);
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 99;
 }
 .lg-close {
-	background: url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+	background: url(../images/close-icon.svg);
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2100,7 +2105,7 @@ textarea {
 .gallery-in-page {
 	width: calc(100% - 26vw);
 	height: auto;
-	cursor: url(/wp-content/themes/southart-new-theme/images/double-arrow.png),
+	cursor: url(../images/double-arrow.png),
 		auto;
 	margin: 2vw auto 0 !important;
 	padding: 0 13vw !important;
@@ -2123,20 +2128,20 @@ textarea {
 	content: '' !important;
 }
 .lg-actions .lg-next {
-	background: url(/wp-content/themes/southart-new-theme/images/arrow-right-big.svg);
+	background: url(../images/arrow-right-big.svg);
 }
 .lg-actions .lg-prev {
-	background: url(/wp-content/themes/southart-new-theme/images/arrow-right-big.svg);
+	background: url(../images/arrow-right-big.svg);
 	transform: rotate(180deg);
 }
 .swiper-button-prev.swiper-button-white,
 .swiper-container-rtl .swiper-button-next.swiper-button-white {
-	background-image: url(/wp-content/themes/southart-new-theme/images/arrow-right-big.svg) !important;
+	background-image: url(../images/arrow-right-big.svg) !important;
 	transform: rotate(180deg);
 }
 .swiper-button-next.swiper-button-white,
 .swiper-container-rtl .swiper-button-prev.swiper-button-white {
-	background-image: url(/wp-content/themes/southart-new-theme/images/arrow-right-big.svg) !important;
+	background-image: url(../images/arrow-right-big.svg) !important;
 }
 .lg-actions .lg-next,
 .lg-actions .lg-prev {
@@ -2185,8 +2190,7 @@ textarea {
 	display: block;
 	width: 100%;
 	height: 100%;
-	cursor: url(/wp-content/themes/southart-new-theme/images/double-arrow.png),
-		auto;
+	cursor: url(../images/double-arrow.png), auto;
 	transition: all 0.3s;
 }
 .slide-keys a:hover {
@@ -2224,7 +2228,7 @@ textarea {
 .cd-product-viewer-wrapper {
 	text-align: center;
 	padding: 2em 0;
-	background: url(/wp-content/themes/southart-new-theme/images/bg-1.png);
+	background: url(../images/bg-1.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2253,7 +2257,7 @@ textarea {
 	left: 0;
 	height: 100%;
 	width: 3500%;
-	background: url(/wp-content/themes/southart-new-theme/images/img-sprite.png)
+	background: url(../images/img-sprite.png)
 		no-repeat center center;
 	background-size: 100%;
 	opacity: 0;
@@ -2315,9 +2319,7 @@ textarea {
 	width: 44px;
 	left: 0;
 	top: -20px;
-	background: #b54240
-		url(/wp-content/themes/southart-new-theme/images/cd-arrows.svg)
-		no-repeat center center;
+	background: #b54240;
 	border-radius: 50%;
 	box-shadow: 0 0 0 6px rgba(181, 66, 64, 0.3), 0 0 20px rgba(0, 0, 0, 0.2);
 	text-indent: 100%;
@@ -2492,7 +2494,7 @@ section {
 	right: 2vw;
 	z-index: 10;
 	cursor: pointer;
-	background: url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+	background: url(../images/close-icon.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2813,7 +2815,7 @@ div.wpcf7-mail-sent-ok {
 	display: block;
 	width: 3vw;
 	height: 3vw;
-	background: url(/wp-content/themes/southart-new-theme/images/zoom.svg),
+	background: url(../images/zoom.svg),
 		rgba(0, 0, 0, 0.32);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2857,7 +2859,7 @@ div.wpcf7-mail-sent-ok {
 	display: block;
 	width: 3vw;
 	height: 3vw;
-	background: url(/wp-content/themes/southart-new-theme/images/zoom.svg),
+	background: url(../images/zoom.svg),
 		rgba(0, 0, 0, 0.32);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3171,7 +3173,7 @@ ul.tabs li.active {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url(/wp-content/themes/southart-new-theme/images/highlight.png)
+	background: url(../images/highlight.png)
 		rgba(0, 0, 0, 0.5);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -3770,7 +3772,7 @@ ul.tabs li.active {
 .share-icon {
 	width: 1.5vw;
 	height: 1.5vw;
-	background: url(/wp-content/themes/southart-new-theme/images/share.svg);
+	background: url(../images/share.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3798,7 +3800,7 @@ ul.tabs li.active {
 	top: 4.5vw;
 	right: 0;
 	background: #234e7c
-		url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+		url(../images/close-icon.svg);
 	background-size: 70%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3928,7 +3930,7 @@ ul.tabs li.active {
 	display: block;
 	width: 3vw;
 	height: 3vw;
-	background: url(/wp-content/themes/southart-new-theme/images/zoom.svg),
+	background: url(../images/zoom.svg),
 		rgba(0, 0, 0, 0.32);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3983,7 +3985,7 @@ ul.tabs li.active {
 }
 .open-info-faq {
 	background: #1f212a;
-	cursor: url(/wp-content/themes/southart-new-theme/images/close-icon.svg),
+	cursor: url(../images/close-icon.svg),
 		auto;
 }
 .full-text-single-page {
@@ -4004,7 +4006,7 @@ ul.tabs li.active {
 }
 .open-info-faq .full-text-single-page,
 .open-info-faq .title-single-page {
-	cursor: url(/wp-content/themes/southart-new-theme/images/close-icon.svg),
+	cursor: url(../images/close-icon.svg),
 		auto;
 }
 .title-single-page {
@@ -4027,7 +4029,7 @@ ul.tabs li.active {
 	content: initial !important;
 }
 .lg-toogle-thumb {
-	background: url(/wp-content/themes/southart-new-theme/images/gallery-hidden.svg);
+	background: url(../images/gallery-hidden.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -4051,7 +4053,7 @@ ul.tabs li.active {
 	display: none !important;
 }
 .close-modal-gallery {
-	background: url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+	background: url(../images/close-icon.svg);
 	background-size: 55%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4082,7 +4084,7 @@ ul.tabs li.active {
 	width: 4vw !important;
 	height: 4.8vw !important;
 	padding: 0 !important;
-	background: url(/wp-content/themes/southart-new-theme/images/share.svg);
+	background: url(../images/share.svg);
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4103,7 +4105,7 @@ ul.tabs li.active {
 	height: 2.8vw;
 	float: left;
 	margin-right: 2vw;
-	background: url(/wp-content/themes/southart-new-theme/images/3m-icon.png);
+	background: url(../images/3m-icon.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4151,7 +4153,7 @@ ul.tabs li.active {
 .sf-field-tag
 	.sf-input-checkbox[type='checkbox']:checked
 	+ .sf-label-checkbox:after {
-	background: url(/wp-content/themes/southart-new-theme/images/checkbox-hover.svg)
+	background: url(../images/checkbox-hover.svg)
 		#3d95ee;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4173,13 +4175,13 @@ ul.tabs li.active {
 	margin: 0 auto;
 }
 .logo-team.semi-pro {
-	background: url(/wp-content/themes/southart-new-theme/images/semi-pro.svg);
+	background: url(../images/semi-pro.svg);
 }
 .logo-team.pro {
-	background: url(/wp-content/themes/southart-new-theme/images/pro.svg);
+	background: url(../images/pro.svg);
 }
 .logo-team.basic {
-	background: url(/wp-content/themes/southart-new-theme/images/basic.svg);
+	background: url(../images/basic.svg);
 }
 .service-box-menu {
 	width: 100%;
@@ -4277,7 +4279,7 @@ ul.tabs li.active {
 	display: block;
 	width: 3vw;
 	height: 3vw;
-	background: url(/wp-content/themes/southart-new-theme/images/zoom.svg),
+	background: url(../images/zoom.svg),
 		rgba(0, 0, 0, 0.32);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -4521,7 +4523,7 @@ ul.tabs li.active {
 		position: fixed;
 		top: 10px;
 		right: 10px;
-		background: url(/wp-content/themes/southart-new-theme/images/close-icon.svg);
+		background: url(../images/close-icon.svg);
 		background-size: 90%;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -4668,12 +4670,12 @@ ul.tabs li.active {
 		width: 100%;
 		max-width: initial;
 		margin: 0 auto;
-		padding: 80px 0 40px;
+		padding: 120px 0 0 0;
 		background: #0c0d13;
 		position: absolute;
-		height: calc(100vh - 120px);
+		height: 100vh;
 		overflow-x: hidden;
-		overflow-y: auto;
+		overflow-y: hidden;
 		transform: translateX(-100%);
 		transition: all 0.3s;
 	}
@@ -4751,7 +4753,7 @@ ul.tabs li.active {
 		background-attachment: initial !important;
 	}
 	.home .header-content {
-		background: url(/wp-content/themes/southart-new-theme/images/222-min.jpg) !important;
+		background: url(../images/222-min.jpg) !important;
 		background-size: cover !important;
 		background-repeat: no-repeat !important;
 		background-position: center !important;
@@ -5057,7 +5059,7 @@ ul.tabs li.active {
 	.gallery-in-page {
 		width: 100%;
 		height: auto;
-		cursor: url(/wp-content/themes/southart-new-theme/images/double-arrow.png),
+		cursor: url(../images/double-arrow.png),
 			auto;
 		margin: 30px auto !important;
 		padding: 0 !important;
@@ -5531,7 +5533,7 @@ ul.tabs li.active {
 		margin-bottom: 20px;
 	}
 	.lg-toogle-thumb {
-		background: url(/wp-content/themes/southart-new-theme/images/gallery-hidden.svg);
+		background: url(../images/gallery-hidden.svg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 100%;
@@ -5708,7 +5710,7 @@ ul.tabs li.active {
 		content: '';
 		width: 100%;
 		height: 30px;
-		background: url(/wp-content/themes/southart-new-theme/images/filter.svg);
+		background: url(../images/filter.svg);
 		background-size: 70%;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -6134,6 +6136,11 @@ ul.tabs li.active {
 		margin-top: 30px;
 		position: relative;
 		z-index: -1;
+
+		background: url(../images/IMG_0376-5kopija.png) !important;
+		background-size: 90% !important;
+		background-repeat: no-repeat !important;
+		background-position: center top !important;
 	}
 	.link-footer {
 		font-size: 14px;
@@ -6301,7 +6308,7 @@ span.wpcf7-list-item-label::after {
 div.wpcf7 .ajax-loader {
 	visibility: hidden;
 	display: inline-block;
-	background-image: url(/wp-content/plugins/contact-form-7/images/ajax-loader.gif);
+	background-image: url(../images/ajax-loader.gif);
 	width: 16px;
 	height: 16px;
 	border: none;
@@ -6423,7 +6430,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	display: block;
 	width: 12px;
 	height: 12px;
-	background: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite.png) -42px
+	background: url(../images/chosen-sprite.png) -42px
 		1px no-repeat;
 	font-size: 1px;
 }
@@ -6443,7 +6450,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	display: block;
 	width: 100%;
 	height: 100%;
-	background: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite.png)
+	background: url(../images/chosen-sprite.png)
 		0 2px no-repeat;
 }
 .chosen-container-single .chosen-search {
@@ -6460,7 +6467,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	height: auto;
 	outline: 0;
 	border: 1px solid #aaa;
-	background: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite.png)
+	background: url(../images/chosen-sprite.png)
 		100% -20px no-repeat;
 	font-size: 1em;
 	font-family: sans-serif;
@@ -6616,7 +6623,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	display: block;
 	width: 12px;
 	height: 12px;
-	background: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite.png) -42px
+	background: url(../images/chosen-sprite.png) -42px
 		1px no-repeat;
 	font-size: 1px;
 }
@@ -6758,7 +6765,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 .chosen-rtl .chosen-search input[type='text'] {
 	padding: 4px 5px 4px 20px;
-	background: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite.png) -30px -20px
+	background: url(../images/chosen-sprite.png) -30px -20px
 		no-repeat;
 	direction: rtl;
 }
@@ -6778,7 +6785,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 	.chosen-container-single .chosen-single abbr,
 	.chosen-container-single .chosen-single div b,
 	.chosen-rtl .chosen-search input[type='text'] {
-		background-image: url(/wp-content/plugins/search-filter-pro/public/assets/css/chosen-sprite@2x.png) !important;
+		background-image: url(../images/chosen-sprite@2x.png) !important;
 		background-size: 52px 37px !important;
 		background-repeat: no-repeat !important;
 	}
@@ -7626,7 +7633,7 @@ div.wpcf7 .wpcf7-submit:disabled {
 }
 .ll-skin-melon .ui-datepicker .ui-datepicker-next span,
 .ll-skin-melon .ui-datepicker .ui-datepicker-prev span {
-	background-image: url(/wp-content/plugins/search-filter-pro/public/assets/img/ui-icons_ffffff_256x240.png);
+	background-image: url(../images/ui-icons_ffffff_256x240.png);
 	background-position: -32px 0;
 	margin-top: 0;
 	top: 0;
@@ -9108,34 +9115,7 @@ a.ui-button:active,
 	width: 16px;
 	height: 16px;
 }
-.ui-icon,
-.ui-widget-content .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_444444_256x240.png);
-}
-.ui-widget-header .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_444444_256x240.png);
-}
-.ui-state-hover .ui-icon,
-.ui-state-focus .ui-icon,
-.ui-button:hover .ui-icon,
-.ui-button:focus .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_555555_256x240.png);
-}
-.ui-state-active .ui-icon,
-.ui-button:active .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_ffffff_256x240.png);
-}
-.ui-state-highlight .ui-icon,
-.ui-button .ui-state-highlight.ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_777620_256x240.png);
-}
-.ui-state-error .ui-icon,
-.ui-state-error-text .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_cc0000_256x240.png);
-}
-.ui-button .ui-icon {
-	background-image: url(/wp-content/themes/southart-new-theme/css/images/ui-icons_777777_256x240.png);
-}
+
 .ui-icon-blank {
 	background-position: 16px 16px;
 }
@@ -10385,4 +10365,12 @@ button.swiper-pagination-bullet {
 }
 .swiper-container-coverflow .swiper-wrapper {
 	-ms-perspective: 1200px;
+}
+
+.custom-service-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
